@@ -1,19 +1,23 @@
 {
-  "name": "my-app",
+  "name": "without-ts",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bit/lucasfloriani.pocdesignsystem.button": "^1.0.3",
+    "@bit/lucasfloriani.pocdesignsystem.card": "^1.0.3",
+    "@bit/lucasfloriani.pocdesignsystem.container": "^1.0.3",
+    "@bit/lucasfloriani.pocdesignsystem.flex": "^1.0.3",
+    "@bit/lucasfloriani.pocdesignsystem.form-field": "^1.0.0",
+    "@bit/lucasfloriani.pocdesignsystem.grid": "^1.0.3",
+    "@bit/lucasfloriani.pocdesignsystem.heading": "^1.0.3",
+    "@bit/lucasfloriani.pocdesignsystem.paragraph": "^1.0.3",
+    "@bit/lucasfloriani.pocdesignsystem.theme": "^1.0.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "typescript": "~3.7.2"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",

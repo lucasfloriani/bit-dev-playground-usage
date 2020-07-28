@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Theme from '@bit/lucasfloriani.pocdesignsystem.theme';
+import defaultTheme from '@bit/lucasfloriani.pocdesignsystem.theme/default';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Theme theme={defaultTheme}>
+      <App />
+    </Theme>
   </React.StrictMode>,
   document.getElementById('root')
 );
